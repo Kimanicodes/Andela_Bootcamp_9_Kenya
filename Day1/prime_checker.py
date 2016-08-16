@@ -1,5 +1,5 @@
 class PrimeChecker(object):
-    def __init__(self, number=""):
+    def __init__(self, number=''):
         self.number = number
 
     def is_prime(self):
