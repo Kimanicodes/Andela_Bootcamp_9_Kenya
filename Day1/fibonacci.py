@@ -6,5 +6,5 @@ def fibonacci(n):
         a, b = b, a + b
         fibonacci_sequence.append(b)
     return fibonacci_sequence
-
+#Testing the function
 print(fibonacci(50))
