@@ -9,6 +9,3 @@ class PrimeChecker(object):
             if int(self.number) % i == 0:
                 return False
         return True
-
-x = PrimeChecker('')
-print(x.is_prime())
